@@ -68,7 +68,20 @@ function HomeBottom() {
             <circle cx="60" cy="60" r="60"></circle>
             <circle cx="60" cy="60" r="60"></circle>
             <circle cx="60" cy="60" r="60"></circle>
+            <circle cx="60" cy="60" r="60"></circle>
           </svg>
+          <div className="number__text font-12">
+            <p>open positions</p>
+          </div>
+          <div className="number__45">
+            <p>45%</p>
+          </div>
+          <div className="number__30">
+            <p>30%</p>
+          </div>
+          <div className="number__25">
+            <p>25%</p>
+          </div>
         </div>
       </div>
     </div>

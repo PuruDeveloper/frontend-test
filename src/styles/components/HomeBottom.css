@@ -99,7 +99,6 @@
 .percent svg circle {
   fill: none;
   stroke: #000;
-  stroke-width: 30;
   transform: translate(16px, 16px);
   stroke-dasharray: 377;
   stroke-dashoffset: 377;
@@ -107,17 +106,29 @@
 
 .percent svg circle:nth-child(1) {
   stroke-dashoffset: 0;
+  stroke-width: 30;
   stroke: rgb(62, 176, 214);
 }
 
 .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(377 + (377 * 45) / 100);
-
-  stroke: rgb(184, 50, 184);
+  stroke-width: 30;
+  stroke: rgb(1, 1, 34);
 }
 .percent svg circle:nth-child(3) {
   stroke-dashoffset: calc(377 - (377 * 30) / 100);
+  stroke-width: 30;
+  stroke: rgb(1, 1, 34);
+}
 
+.percent svg circle:nth-child(4) {
+  stroke-dashoffset: calc(377 + (377 * 45) / 100);
+  stroke-width: 20;
+  stroke: rgb(184, 50, 184);
+}
+.percent svg circle:nth-child(5) {
+  stroke-dashoffset: calc(377 - (377 * 30) / 100);
+  stroke-width: 20;
   stroke: rgb(203, 51, 51);
 }
 /* .percent svg circle:nth-child(4) {
@@ -125,7 +136,27 @@
   stroke-width: 24;
   stroke: rgb(62, 176, 214);
 } */
-
+.number__text > p {
+  font-size: 10px;
+}
+.number__45 {
+  position: relative;
+  font-size: 12px;
+  top: -157px;
+  left: 63px;
+}
+.number__30 {
+  position: relative;
+  font-size: 12px;
+  top: -62px;
+  left: 101px;
+}
+.number__25 {
+  position: relative;
+  font-size: 12px;
+  top: -99px;
+  left: 13px;
+}
 @media (max-width: 1400px) {
   p {
     font-size: 12px;

@@ -2,6 +2,14 @@
   flex: 0.04;
   color: white;
   border-right: 1px solid rgb(30, 24, 24);
+  justify-content: space-between;
+  padding-left: 12px;
+  position: relative;
+}
+.settings__i {
+  position: absolute;
+  bottom: 0;
+  padding-left: 12px;
 }
 .sidebar > h3 {
   padding-left: 12px;
