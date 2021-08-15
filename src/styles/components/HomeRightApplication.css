@@ -1,0 +1,17 @@
+.home__right__application {
+  color: white;
+  position: relative;
+  height: 40px;
+}
+.name h3 {
+  margin-right: auto;
+  padding-left: 12px;
+  position: relative;
+  top: -10px;
+}
+.call i {
+  padding-right: 12px;
+}
+.space-around {
+  justify-content: space-around;
+}

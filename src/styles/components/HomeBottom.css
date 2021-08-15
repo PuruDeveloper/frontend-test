@@ -1,0 +1,169 @@
+.home-bottom {
+  display: flex;
+  margin-top: 12px;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-right: 12px;
+}
+
+.align-center > p {
+  margin-bottom: 12px;
+}
+
+.border-right {
+  border-right: 1px solid rgb(30, 24, 24);
+}
+
+.bottom__left__top {
+  display: flex;
+}
+.home__bottom__left {
+  flex: 1;
+
+  border: 1px solid rgb(30, 24, 24);
+  border-radius: 16px;
+  max-width: 550px;
+  min-height: 120px;
+  padding: 10px;
+  margin-right: 12px;
+  position: relative;
+}
+.home__bottom__right {
+  flex: 1;
+  border: 1px solid rgb(30, 24, 24);
+  border-radius: 16px;
+  max-width: 250px;
+  min-height: 200px;
+  padding: 10px;
+  margin-right: 12px;
+  position: relative;
+}
+
+.home__bottom__left i {
+  margin: 0;
+  margin-left: auto;
+  margin-right: 4px;
+}
+
+.bottom__left__center {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-evenly;
+}
+.background__blue {
+  text-transform: none !important;
+  padding: 12px !important;
+  margin: 4px;
+}
+.background__red {
+  text-transform: none !important;
+  padding: 12px !important;
+  margin: 4px;
+}
+.bottom__left__buttons .MuiButton-root {
+  height: 32px;
+}
+.bottom__left__buttons .MuiButton-root:nth-child(1) {
+  background-color: rgb(62, 176, 214);
+  margin-right: 12px;
+}
+.bottom__left__buttons .MuiButton-root:nth-child(2) {
+  background-color: rgb(203, 51, 51);
+}
+.bottom__left__buttons {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.percent {
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+
+.percent svg {
+  position: relative;
+}
+.percent svg circle {
+  fill: none;
+  stroke: #000;
+  stroke-width: 30;
+  transform: translate(16px, 16px);
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
+}
+
+.percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: rgb(62, 176, 214);
+}
+
+.percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(377 + (377 * 45) / 100);
+
+  stroke: rgb(184, 50, 184);
+}
+.percent svg circle:nth-child(3) {
+  stroke-dashoffset: calc(377 - (377 * 30) / 100);
+
+  stroke: rgb(203, 51, 51);
+}
+/* .percent svg circle:nth-child(4) {
+  stroke-dashoffset: calc(377 - (377 * 25) / 100);
+  stroke-width: 24;
+  stroke: rgb(62, 176, 214);
+} */
+
+@media (max-width: 1400px) {
+  p {
+    font-size: 12px;
+  }
+  .bottom__left__buttons {
+    display: inline-block;
+  }
+  .bottom__left__buttons .MuiButton-root {
+    margin: 8px auto;
+  }
+}
+@media (max-width: 1200px) {
+  .home-bottom {
+    display: inline-block;
+  }
+  .home__bottom__left {
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 950px) {
+  .home__bottom__right {
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 510px) {
+  .bottom__left__top {
+    display: inline-block;
+  }
+  .bottom__left__center {
+    display: block;
+  }
+  .border-right {
+    border-right: 0px solid rgb(30, 24, 24);
+  }
+}
+
+@media (max-width: 450px) {
+  .home__bottom__left {
+    width: 250px;
+  }
+}

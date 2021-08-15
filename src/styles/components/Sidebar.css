@@ -1,0 +1,56 @@
+.sidebar {
+  flex: 0.04;
+  color: white;
+  border-right: 1px solid rgb(30, 24, 24);
+}
+.sidebar > h3 {
+  padding-left: 12px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.MuiButton-root {
+  padding: 0 !important;
+  color: white !important;
+  justify-content: center;
+  line-height: 1 !important;
+}
+
+i {
+  margin-bottom: 20px;
+}
+.fa-home,
+.fa-chart-bar,
+.fa-sitemap,
+.fa-folder,
+.fa-calendar-week,
+.fa-user-friends,
+.fa-folder-open,
+.fa-sign-out-alt {
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-right: 40px;
+}
+.blue__bar {
+  border-right: 3px solid rgb(62, 176, 214);
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    flex: 0.03;
+  }
+}
+@media (max-width: 520px) {
+  .fa-home,
+  .fa-chart-bar,
+  .fa-sitemap,
+  .fa-folder,
+  .fa-calendar-week,
+  .fa-user-friends,
+  .fa-folder-open,
+  .fa-sign-out-alt {
+    padding-right: 30px;
+  }
+}

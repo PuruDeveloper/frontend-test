@@ -1,0 +1,42 @@
+.home {
+  flex: 0.96;
+  padding: 12px;
+}
+.home__body {
+  display: flex;
+}
+.home__body__center {
+  flex: 0.68;
+}
+.home__body__right {
+  flex: 0.32;
+}
+
+@media (max-width: 1300px) {
+  .home__body__center {
+    flex: 0.6;
+  }
+  .home__body__right {
+    flex: 0.4;
+  }
+}
+@media (max-width: 1260px) {
+  .home__body__center {
+    flex: 0.5;
+  }
+  .home__body__right {
+    flex: 0.5;
+  }
+}
+
+@media (max-width: 950px) {
+  .home__body {
+    display: inline-block;
+  }
+  .home__body__center {
+    flex: 1;
+  }
+  .home__body__right {
+    flex: 1;
+  }
+}
