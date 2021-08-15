@@ -70,7 +70,7 @@ function HomeBottom() {
             <circle cx="60" cy="60" r="60"></circle>
             <circle cx="60" cy="60" r="60"></circle>
           </svg>
-          <div className="number__text font-12">
+          <div className="number__text">
             <p>open positions</p>
           </div>
           <div className="number__45">

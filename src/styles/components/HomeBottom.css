@@ -157,6 +157,15 @@
   top: -99px;
   left: 13px;
 }
+.number__text {
+  position: relative;
+  font-size: 12px;
+  top: -82px;
+  left: 44px;
+}
+.number__text > p {
+  font-size: 10px;
+}
 @media (max-width: 1400px) {
   p {
     font-size: 12px;
@@ -196,5 +205,10 @@
 @media (max-width: 450px) {
   .home__bottom__left {
     width: 250px;
+  }
+}
+@media (max-width: 410px) {
+  .home__bottom__left {
+    width: 200px;
   }
 }

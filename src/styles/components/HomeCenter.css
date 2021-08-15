@@ -183,3 +183,11 @@ li {
     width: 250px;
   }
 }
+@media (max-width: 450px) {
+  .home__center__left {
+    width: 200px;
+  }
+  .home__center__right {
+    max-width: 200px;
+  }
+}
