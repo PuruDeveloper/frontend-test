@@ -2,14 +2,22 @@ import { Button } from "@material-ui/core";
 import { Avatar } from "@material-ui/core";
 import React from "react";
 import "../styles/components/Header.css";
+import { format } from "date-fns";
 
 function Header() {
+  var day = format(new Date(), "eeee");
+  var date = format(new Date(), "dd");
+  var month = format(new Date(), "MMMM");
+  var year = format(new Date(), "yyyy");
   return (
     <div className="header">
       <div className="header__left">
         <h4>Dashboard</h4>
         <p>
-          Monday, <strong className="blue">02 July 2020</strong>
+          {day},{" "}
+          <strong className="blue">
+            {date} {month} {year}
+          </strong>
         </p>
       </div>
       <div className="header__right">
